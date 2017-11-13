@@ -13,7 +13,7 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 public class DriveSubsystem extends Subsystem {
 
 	//VictorSP is one of a few provided speed controller classes in WPILIB
-	//Two of the other speed controller classes we use are CANTalon, Jaguar, and Talon.
+	//Three of the other speed controller classes we use are CANTalon, Jaguar, and Talon.
 
 	//CANTalon is used to connect TalonSRX speed controllers that are connected through the CAN bus
 	//constructor: public CANTalon(int canID); canID is the id of the Talon SRX on the CAN bus
